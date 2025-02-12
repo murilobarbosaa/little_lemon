@@ -20,6 +20,19 @@ a:visited {
 }
 /* ====================================== */
 
+.divider-div {
+    display: flex;
+    justify-content: center;
+}
+
+.divider {
+    border: none;
+    border-bottom: 1px solid #ffec96;
+    width: 35%;
+    margin: 50px;
+    margin-bottom: 50px;
+}
+
 /* =============== Header =============== */
 .header-section {
     display: flex;
@@ -177,6 +190,10 @@ a:visited {
     border: none;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.map-container iframe:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
 }
 /* ====================================== */
 
