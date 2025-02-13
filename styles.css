@@ -27,7 +27,7 @@ a:visited {
 
 .divider {
     border: none;
-    border-bottom: 1px solid #ffd000;
+    border-bottom: 1px solid #dddddd;
     width: 35%;
     margin-bottom: 50px;
 }
@@ -124,10 +124,6 @@ a:visited {
 /* ====================================== */
 
 /* ============== About Us ============== */
-/* font-family: 'RobotoSlab', serif; 
-594 594
-*/
-
 .about-us-section {
     display: flex;
     justify-content: space-evenly;
@@ -175,7 +171,7 @@ a:visited {
     padding-bottom: 10px;
 }
 
-.about-us-button {
+.about-us-button, .send-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,7 +181,7 @@ a:visited {
     font-size: 15px;
     padding: 10px 30px;
     cursor: pointer;
-    background-color: transparent;
+    background-color: white;
     font-weight: 450;
     position: relative;
     overflow: hidden;
@@ -195,7 +191,7 @@ a:visited {
     margin-right: 25px;
 }
 
-.colored-button-div {
+.colored-button-div{
     background-color: #ffd000;
     width: 35px;
     height: 100%;
@@ -208,17 +204,80 @@ a:visited {
     padding: 5px;
 }
 
-.colored-button-div {
+.colored-button-div{
     background-color: #ffd000;
 }
 
-.about-us-button:hover {
+.about-us-button:hover, .send-button:hover {
     border-color: #D4B012;
 }
 
-.about-us-button:hover .colored-button-div {
+.about-us-button:hover .colored-button-div, .send-button:hover .colored-button-div {
     background-color: #D4B012;
 }
+/* ====================================== */
+
+/* ====================================== */
+
+/* ====================================== */
+
+/* ============ Reservation ============= */
+.reservation-section {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-evenly;*/
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f0f0f0;
+    justify-content: center;
+    gap: 50px;
+}
+
+.vertical-division {
+    width: 1px;
+    height: 200px;
+    border: none;
+    border-left: 1px solid #dddddd;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.form-fields {
+    margin-bottom: 20px;
+}
+
+.reservation-input {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    overflow: hidden;
+    max-width: 300px;
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #c0c0c0;
+    color: #000000;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+.form-submit {
+    display: flex;
+    float: right;
+}
+
 /* ====================================== */
 
 /* ============ Where we are ============ */
@@ -231,7 +290,7 @@ a:visited {
     padding-left: 235px;
 }
 
-.title-branches, .title-about-us {
+.title-branches, .title-about-us, .title-make-reservation {
     color: #F5CD14;
     font-family: 'Dancing Script', cursive;
     font-size: 28px;
@@ -277,6 +336,7 @@ a:visited {
     display: flex;
     justify-content: center;
     border-radius: 15px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -298,6 +358,10 @@ a:visited {
     justify-content: center;
     align-items: center;
     padding-top: 35px;
+}
+
+.world {
+    cursor: pointer;
 }
 /* ====================================== */
 
@@ -464,18 +528,3 @@ footer {
     color: white;
 }
 /* ====================================== */
-/*
-colors {
-    color of tha main text: #22262A
-    color of some texts: #878F99
-    color of the buttons: #FB8A22
-    color for contrast: #F7F7FA
-}
-
-WELCOME TO OUR RESTAURANT {
-    background-color: #FFF0E6
-    color: #FB8A22
-}
-
-fonts: Uncut Sans: content | Inter: headers | Cursive: special text 
-*/
