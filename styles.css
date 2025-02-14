@@ -137,6 +137,12 @@ a:visited {
     background-color: #D4B012;
 }
 
+.main-tittle {
+    border-bottom: 2px solid #ffd000;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
 /* ====================================== */
 
 /* ============== About Us ============== */
@@ -233,8 +239,90 @@ a:visited {
 }
 /* ====================================== */
 
-/* ====================================== */
+/* ============== Recipes =============== */
+.special-recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
+.special-recipes-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.special-recipes-description {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #878F99;
+}
+
+.special-recipes-rows {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.recipe-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 440px;
+    height: 500px;
+    margin: 3px 3px 3px 3px;
+    gap: 2px;
+    box-shadow: 1px 1px 1px 1px #f1f1f1;
+}
+
+.recipe-image-container {
+    background-color: pink;
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+
+.recipe-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recipe-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+}
+
+.recipe-rating {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #F5CD14;
+}
+
+.recipe-info {
+    color: #878F99;
+    width: 80%;
+}
+
+.recipe-price {
+    margin-top: 8px;
+}
+
+.recipe-price {
+    font-family: 'Spectral', serif;
+    color: #F5CD14;
+    font-size: 32px;
+    font-style: italic;
+}
 /* ====================================== */
 
 /* ============ Reservation ============= */
@@ -306,7 +394,7 @@ input::placeholder {
     padding-left: 235px;
 }
 
-.title-branches, .title-about-us, .title-make-reservation {
+.title-branches, .title-about-us, .title-make-reservation, .title-special-recipes {
     color: #F5CD14;
     font-family: 'Dancing Script', cursive;
     font-size: 28px;
