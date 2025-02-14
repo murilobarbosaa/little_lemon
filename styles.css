@@ -20,24 +20,40 @@ a:visited {
 }
 /* ====================================== */
 
+/* ============== Dividers ============== */
 .divider-div {
     display: flex;
     justify-content: center;
 }
 
-.divider {
-    border: none;
-    border-bottom: 1px solid #dddddd;
-    width: 35%;
-    margin-bottom: 50px;
+.custom-shape-divider-top-1739504744 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
+
+.custom-shape-divider-top-1739504744 svg {
+    position: relative;
+    display: block;
+    width: calc(119% + 1.3px);
+    height: 44px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1739504744 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* ====================================== */
 
 /* =============== Header =============== */
 .header-section {
     display: flex;
     flex-direction: row;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     gap: 500px;
 }
 
@@ -75,7 +91,7 @@ a:visited {
     background-repeat: no-repeat;
     background-color: #282624;
     font-size: 36px;
-    height: 750px;
+    height: 780px;
     width: 100%;
     cursor: default;
 }
@@ -120,6 +136,16 @@ a:visited {
 .main-button:hover {
     background-color: #D4B012;
 }
+
+/* ====================================== */
+
+/* ============== Recipes =============== */
+
+.special-recipes {
+    height: 1000px;
+    background-color: yellowgreen;
+}
+
 
 /* ====================================== */
 
@@ -225,10 +251,10 @@ a:visited {
 .reservation-section {
     display: flex;
     flex-direction: row;
-    /*justify-content: space-evenly;*/
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #f0f0f0;
+    /* #f0f0f0 */
     justify-content: center;
     gap: 50px;
 }
@@ -351,17 +377,6 @@ input::placeholder {
 
 .map-container iframe:hover {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
-}
-
-.location-globe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 35px;
-}
-
-.world {
-    cursor: pointer;
 }
 /* ====================================== */
 
