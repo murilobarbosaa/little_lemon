@@ -3,7 +3,7 @@
 ![Little Lemon Logo](/assets/logo/Asset%2016@4x.png)
 
 ## Overview
-Little Lemon is a modern restaurant website developed as the final project for Meta's HTML and CSS in-depth course, part of the Front-End Developer Professional Certificate. This project demonstrates advanced HTML and CSS implementation, focusing on creating an engaging user experience with pure HTML and CSS.
+Little Lemon is a modern restaurant website created as the final project for Meta's HTML and CSS In-Depth course. This project highlights the use of advanced HTML and CSS techniques to create a visually appealing, responsive, and user-friendly restaurant website. Built with pure HTML, CSS, and Bootstrap Icons, the website offers a clean and engaging experience.
 
 ## Technologies Used
 
@@ -19,58 +19,30 @@ Little Lemon is a modern restaurant website developed as the final project for M
 ### 🎨 Design & Layout
 - Custom-designed wave dividers using SVG
 - Grid layout for menu items and location cards
-- Dynamic hover effects and transitions
-- Carefully crafted color scheme maintaining brand consistency
-- Strategic use of whitespace and typography
+- Dynamic hover effects and smooth transitions
+- Consistent color palette aligned with the restaurant's brand
+- Well-organized whitespace and legible typography
 
 ### 🛠 Technical Implementations
-- Semantic HTML5 elements
-- Advanced CSS properties and selectors
-- CSS Grid and Flexbox layouts
-- Custom SVG implementations
-- Bootstrap Icons integration
-- Form validation
-- CSS transitions and transforms
-- Custom Google Fonts integration
+- Semantic HTML5 elements for better SEO and accessibility
+- Advanced CSS properties and selectors for precise design
+- Layouts using CSS Grid and Flexbox
+- SVG graphics to enhance the visual appeal
+- Bootstrap Icons integration for scalable vector icons
+- Form validation for reservation requests
+- Smooth CSS transitions and transforms for interactivity
+- Google Fonts for custom typography
 
-### 📋 Key Sections
-- Hero section with call-to-action
-- About Us with image overlay effects
-- Special Recipes showcase
-- Reservation system
-- Branch locations with map integration
-- Newsletter subscription
-- Comprehensive footer with social media links
+## Screenshots
 
-## Skills Demonstrated
-- Advanced HTML semantic structure
-- CSS custom properties
-- CSS Grid and Flexbox mastery
-- SVG manipulation
-- Form styling and validation
-- Web accessibility practices
-- Cross-browser compatibility
-- Version control with Git
+Here are some screenshots of the Little Lemon restaurant website:
 
-## Future Enhancements
-- JavaScript functionality for dynamic features
-- Menu filtering system
-- Online ordering system
-- Reservation confirmation system
-- Customer review section
-- Image gallery lightbox
-- Mobile responsive design
-- Performance optimization
-
-## Author
-- Murilo Barbosa Cardoso
-
-## Acknowledgments
-- Meta Front-End Developer Professional Certificate Program
-- Course instructors and mentors
-- Bootstrap Icons for the icon library
-- Google Fonts for typography
+![1](./screenshots/1.png)
+![2](./screenshots/2.png)
+![3](./screenshots/3.png)
+![4](./screenshots/4.png)
+![5](./screenshots/5.png)
+![6](./screenshots/6.png)
 
 ## License
-This project is part of the Meta Front-End Developer Certificate coursework.
-
+This project is part of the Meta Front-End Developer Certificate coursework. Feel free to use the code as a reference for your own projects, but please credit the original work.
