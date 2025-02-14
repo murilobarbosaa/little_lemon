@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     cursor: default;
@@ -22,6 +26,12 @@ a:visited {
 /* ====================================== */
 
 /* ============== Dividers ============== */
+.divider {
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .divider-div {
     display: flex;
     justify-content: center;
@@ -47,19 +57,21 @@ a:visited {
     fill: #FFFFFF;
 }
 
-.image-divider > img {
-    width: 100%;
-}
-
 .pizza-decoration {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 330px;
     position: absolute;
+    width: 400px;
     margin-top: -180px;
     right: 0;
     z-index: 10;
+}
+
+.pizza-decoration > img {
+    position: relative;
+    width: 400px;
+    height: 400px;
 }
 /* ====================================== */
 
